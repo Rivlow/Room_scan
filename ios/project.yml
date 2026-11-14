@@ -1,0 +1,32 @@
+# Projet Xcode généré par XcodeGen :  cd ios && xcodegen   ->  RoomScan.xcodeproj
+# (voir README_mac.md ; variante sans XcodeGen décrite dedans)
+name: RoomScan
+options:
+  bundleIdPrefix: fr.lucas
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"          # iPhone
+    CODE_SIGN_STYLE: Automatic
+    DEVELOPMENT_TEAM: ""                 # choisir l'équipe (identifiant Apple) dans Xcode > Signing & Capabilities
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_USER_SCRIPT_SANDBOXING: NO
+targets:
+  RoomScan:
+    type: application
+    platform: iOS
+    sources:
+      - path: RoomScan/Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: fr.lucas.roomscan
+        PRODUCT_NAME: RoomScan
+        INFOPLIST_FILE: RoomScan/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        SUPPORTS_MACCATALYST: NO
+        SWIFT_EMIT_LOC_STRINGS: NO

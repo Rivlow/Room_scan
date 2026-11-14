@@ -1,0 +1,13 @@
+# scans LiDAR et domaines convertis (des centaines de Mo à plusieurs Go)
+data/
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+# réglages locaux de l'assistant
+.claude/settings.local.json
+# sorties de conversion lancées à la racine
+apercu_*.png
+*.npy
+voxels.ply
+rapport.txt

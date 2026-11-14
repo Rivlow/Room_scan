@@ -1,0 +1,11 @@
+RoomScan.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+.DS_Store
+# xtool / SwiftPM
+.build/
+.swiftpm/
+xtool/
+*.ipa

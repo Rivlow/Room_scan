@@ -1,0 +1,5 @@
+version: 1
+bundleID: fr.lucas.roomscan
+product: RoomScan
+# Info.plist sans variables Xcode $(...) ; xtool fournit CFBundleExecutable, CFBundleIdentifier, versions, MinimumOSVersion.
+infoPath: RoomScan/Info-xtool.plist
