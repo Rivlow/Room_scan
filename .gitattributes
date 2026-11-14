@@ -1,0 +1,5 @@
+# Fins de ligne LF partout : les scripts .sh tournent sous WSL (bash refuse le CRLF) et le reste est partagé Windows / Linux / Mac
+* text=auto eol=lf
+*.png binary
+*.ply binary
+*.npy binary
